@@ -1,2 +1,3 @@
 # finalgamecode
 The Riddler, a short simple maze game created using Java. 
+You will move around the map and find different riddlers. You will click on them once you are near them and a riddle will pop up in the text box at the bottom. Most of these answers are one word and you have unlimited tries. I used an array to create a grid that became my maze. From there I added barriers that eliminated the velocity of the character when near.  This gave me some trouble at first but I was able to figure out how to let the velocity become 0 when near. Something else that gave me trouble was randomizing the riddles. It is set to choose from the 10 or so I implemented but it favors 2-3 that popup more frequently.
